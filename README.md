@@ -3,9 +3,10 @@ mvc design pattern framework with eample in python. you can extend it and use
 
 ### what is mvc design pattern
 ```
-   it a highlevel structure of writing code .it is a way  to create a professional or 
-   easly maintainable and easy to understand code 
-   we should seperate code into 3 things.called model view and controller.
+   It is a high-level structure for writing code. It provides a way to create professional,
+   easily maintainable, and easy-to-understand code.
+   We should separate the code into three components: Model, View, and Controller (MVC).
+
    
    it means
    
