@@ -1,5 +1,5 @@
 # pymvc
-mvc design pattern framework with eample in python. you can extend it and use
+mvc design pattern framework with eample in python.
 
 ### what is mvc design pattern
 ```
@@ -32,4 +32,28 @@ mvc design pattern framework with eample in python. you can extend it and use
    
    controller.py
       it contain code responsible for managing model and view.it runs view and model
+```
+
+### usage
+
+```
+from pymvc import view
+from pymvc import model
+from pymvc import controller
+
+
+class example_mvc:
+    ""
+    "entrypoint of this software .it is written in mvc design pattern"
+    "extend this class and create your own implementation "
+    def __init__(self):
+        self.view = view.example()
+        self.model = model.example()
+        self.controller = controller.example(self.view, self.model)
+
+    def run(self):
+        self.controller.run()
+
+if __name__ == "__main__":
+    example_mvc().run()
 ```
