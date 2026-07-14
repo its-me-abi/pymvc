@@ -1,3 +1,3 @@
 #### main.py
-entrypoint of demo ,used for strating controller and passingf model and view to it,
+entrypoint of demo ,used for starting controller and passingf model and view to it,
 
