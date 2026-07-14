@@ -2,7 +2,7 @@
 mvc design pattern framework with eample in python.
 
 ### usage example
-[here is demo ](demo/)
+[here is demo ](demo/main.py) you can copy this demo into your project then you can add remove features.
 
 ### what is mvc design pattern
 ```
