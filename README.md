@@ -5,6 +5,17 @@ mvc design pattern framework with eample demo code in python.
 
 PyMVC is a lightweight Python framework that helps you structure your applications using the Model-View-Controller (MVC) architectural pattern. It provides a foundational structure and reusable base classes to help developers build maintainable, scalable applications with clear separation of concerns.
 
+## Getting Started
+
+### Basic Implementation Steps
+
+1. Create your own view class extending `view.view`
+2. Create your own model class extending `model.model`
+3. Create your own controller class extending `controller.controller`
+4. Create a main class extending `mvc.mvc` that initializes all three components
+5. Implement the `run()` method in your controller to define your application's logic
+
+
 ### usage example
 [Here is a demo example](demo/main.py) - you can copy this demo into your project and then add or remove features as needed.
 
@@ -74,16 +85,4 @@ demo/
 6. **View Updates**: The controller updates the view with results from the model
 7. **Loop Continues**: The process repeats until the application ends
 
-## Getting Started
 
-### Basic Implementation Steps
-
-1. Create your own view class extending `view.view`
-2. Create your own model class extending `model.model`
-3. Create your own controller class extending `controller.controller`
-4. Create a main class extending `mvc.mvc` that initializes all three components
-5. Implement the `run()` method in your controller to define your application's logic
-
-### Example Usage
-
-See [demo/main.py](demo/main.py) for a complete working example of how to implement an application using this framework.
