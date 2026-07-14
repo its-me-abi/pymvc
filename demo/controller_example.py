@@ -1,7 +1,7 @@
 from pymvc import view
 from pymvc import model
 
-class example (controller.controller) :
+class example_controller (controller.controller) :
     
     "this is an example usage for contoller"
     
