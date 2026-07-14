@@ -1,6 +1,6 @@
 from pymvc import model
 
-class example (model.model):
+class example_model (model.model):
     "this is an example for model "
     filename = "helo.txt"
 
