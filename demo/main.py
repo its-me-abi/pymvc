@@ -1,6 +1,7 @@
-from pymvc import view
-from pymvc import model
-from pymvc import controller
+from . import model_example
+from . import view_example
+from . import controller_example
+
 from pymvc import mvc
 
 class example_main( mvc.mvc ):
@@ -10,9 +11,9 @@ class example_main( mvc.mvc ):
     "extend this class and create your own implementation "
   
     def __init__(self):
-        self.view = view.example()
-        self.model = model.example()
-        self.controller = controller.example(self.view, self.model)
+        self.view = view_example.example_view()
+        self.model = model_example.example_model()
+        self.controller = controller_example.example_controller(self.view, self.model)
 
     def run(self):
         self.controller.run()
