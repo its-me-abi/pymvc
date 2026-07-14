@@ -1,5 +1,6 @@
 from pymvc import view
 from pymvc import model
+from pymvc import controller
 
 class example_controller (controller.controller) :
     
