@@ -5,7 +5,7 @@ from pymvc import controller
 class example_controller (controller.controller) :
     
     "this is an example usage for contoller"
-    
+
     def run(self):
         
         try:
