@@ -1,0 +1,6 @@
+
+class model:
+    pass
+
+           
+
