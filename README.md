@@ -1,5 +1,5 @@
 # pymvc
-mvc design pattern framework with eample in python.
+mvc design pattern framework with eample demo code in python.
 
 ### usage example
 [here is demo ](demo/main.py) you can copy this demo into your project then you can add remove features.
