@@ -1,5 +1,5 @@
 # pymvc
-mvc design pattern framework with eample demo code in python.
+mvc design pattern framework with demo code in python.
 
 ## Overview
 
