@@ -17,7 +17,7 @@ PyMVC is a lightweight Python framework that helps you structure your applicatio
 
 
 ### usage example
-[Here is a demo example](demo/main.py) - you can copy this demo into your project and then add or remove features as needed.
+[Here is a demo ](demo/main.py) - you can copy this demo into your project and then add or remove features as needed.
 
 ### what is mvc design pattern
 ```
